@@ -28,7 +28,7 @@ services:
       SYSTEM_MAXFILESIZE: "100"
       METRICS_ENABLED: "true"
       SYSTEM_GOOGLEVISIBILITY: "true"
-      SHOW_SURVEY: "true"
+      SHOW_SURVEY: "false" # Set to "true" to enable user feedback survey popup
     networks:
       - stirling-network
 
